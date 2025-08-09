@@ -1,0 +1,94 @@
+body {
+  background: #18181b;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.main {
+  max-width: 520px;
+  margin: 60px auto;
+  background: #23232a;
+  border-radius: 18px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.18);
+  padding: 40px 32px;
+  text-align: center;
+}
+
+h1 {
+  color: #f1f5f9;
+  margin-bottom: 28px;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  opacity: 0.85; /* opacity kam ki gayi */
+}
+
+.show_pass {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+
+.show_pass input[type="text"] {
+  flex: 1;
+  padding: 12px 14px;
+  font-size: 1.15rem;
+  border: 1px solid #333646;
+  border-radius: 7px;
+  background: #18181b;
+  color: #f1f5f9;
+}
+
+.copyButton {
+  padding: 0 22px;
+  background: #6366f1;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  font-size: 1.05rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.copyButton:hover {
+  background: #4338ca;
+}
+
+.otherInput {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.passRenge {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  cursor: pointer;
+}
+
+input[type="range"] {
+  accent-color: #6366f1;
+  width: 200px;
+  cursor: pointer;
+}
+
+.numberInpt,
+.symbolInpt {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+label {
+  color: #bfc3cb; /* label ka color bhi thoda dull */
+  font-size: 1.05rem;
+  cursor: pointer;
+}
+
+body,
+.main,
+label,
+.show_pass input[type="text"] {
+  color: #d1d5db; /* text ka color thoda dull/grayish */
+}
